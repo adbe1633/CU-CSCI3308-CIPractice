@@ -1,6 +1,6 @@
-# Andy Sayler
+# Adam Bender
 # CI Practice
-# Summer 2014
+# Fall 2018
 
 CC = gcc
 CFLAGS = -c -g -Wall -Wextra
@@ -29,3 +29,10 @@ clean:
 	$(RM) *.o
 	$(RM) geometry_test
 	$(RM) *~
+
+test: geometry_test
+	./geometry_test
+
+
+
+
